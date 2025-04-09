@@ -82,13 +82,25 @@
                         <h3>Artwork 6</h3>
                     </div>
                 </div>
+              <div class="card" onclick="openModal(6)">
+                    <img src="COMMS 3 amore bonus.jpg">
+                    <div class="card-content">
+                        <h3>Artwork 7</h3>
+                    </div>
+                </div>
+                <div class="card" onclick="openModal(7)">
+                    <img src="spotifycover.jpg">
+                    <div class="card-content">
+                        <h3>Artwork 8</h3>
+                    </div>
+                </div>
             </div>
             <div id="modal" class="modal" onclick="closeModal()">
                 <div class="modal-content" onclick="event.stopPropagation()">
                     <img id="modalImage" src="" alt="">
                     <h2 id="modalTitle"></h2>
                     <p id="modalDesc"></p>
-                    <button onclick="closeModal()">Tutup</button>
+                    <button onclick="closeModal()">Close</button>
                 </div>
             </div>
         </div>
@@ -125,6 +137,16 @@
         title: "Artwork 6",
         image: "harris hbd2.jpg",
         description: "i drew this for my friend too"
+        },
+      {
+        title: "Artwork 7",
+        image: "COMMS 3 amore bonus.jpg",
+        description: "my first ever commision"
+        },
+        {
+        title: "Artwork 8",
+        image: "spotifycover.jpg",
+        description: "my playlist cover"
         }
     ];
 
